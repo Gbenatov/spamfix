@@ -1,0 +1,194 @@
+[02-Jul-2014 06:55:17] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT * FROM wp_frm_forms WHERE  (status is NULL OR status = '' OR status = 'published') AND default_template=0 AND is_template = 0 ORDER BY name ASC LIMIT 0, 20 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::display_forms_list, FrmListHelper->prepare_items, FrmForm->getAll
+[02-Jul-2014 06:55:17] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT COUNT(*) FROM wp_frm_forms WHERE  (status is NULL OR status = '' OR status = 'published') AND default_template=0 AND is_template = 0 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::display_forms_list, FrmListHelper->prepare_items, FrmAppHelper::getRecordCount
+[02-Jul-2014 06:55:24] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT * FROM wp_frm_forms WHERE default_template=1 made by do_action('formidable_page_formidable-templates'), call_user_func_array, FrmFormsController::template_list, FrmFormsController::display_forms_list, FrmForm->getAll, FrmDb->get_records
+[02-Jul-2014 06:55:24] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT * FROM wp_frm_forms WHERE is_template=1 ORDER BY name made by do_action('formidable_page_formidable-templates'), call_user_func_array, FrmFormsController::template_list, FrmFormsController::display_forms_list, FrmForm->getAll, FrmDb->get_records
+[02-Jul-2014 06:55:24] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT * FROM wp_frm_forms WHERE  (status is NULL OR status = '' OR status = 'published') AND default_template=0 AND is_template = 1 ORDER BY name ASC LIMIT 0, 10 made by do_action('formidable_page_formidable-templates'), call_user_func_array, FrmFormsController::template_list, FrmFormsController::display_forms_list, FrmListHelper->prepare_items, FrmForm->getAll
+[02-Jul-2014 06:55:24] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT COUNT(*) FROM wp_frm_forms WHERE  (status is NULL OR status = '' OR status = 'published') AND default_template=0 AND is_template = 1 made by do_action('formidable_page_formidable-templates'), call_user_func_array, FrmFormsController::template_list, FrmFormsController::display_forms_list, FrmListHelper->prepare_items, FrmAppHelper::getRecordCount
+[02-Jul-2014 06:55:30] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT * FROM wp_frm_forms WHERE  (status is NULL OR status = '' OR status = 'published') AND default_template=0 AND is_template = 0 ORDER BY name ASC LIMIT 0, 20 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::display_forms_list, FrmListHelper->prepare_items, FrmForm->getAll
+[02-Jul-2014 06:55:30] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT COUNT(*) FROM wp_frm_forms WHERE  (status is NULL OR status = '' OR status = 'published') AND default_template=0 AND is_template = 0 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::display_forms_list, FrmListHelper->prepare_items, FrmAppHelper::getRecordCount
+[02-Jul-2014 06:55:34] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT * FROM wp_frm_forms WHERE  (status is NULL OR status = '' OR status = 'published') AND default_template=0 AND is_template = 0 ORDER BY name ASC LIMIT 0, 20 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::display_forms_list, FrmListHelper->prepare_items, FrmForm->getAll
+[02-Jul-2014 06:55:34] WordPress database error Table 'c9.wp_frm_forms' doesn't exist for query SELECT COUNT(*) FROM wp_frm_forms WHERE  (status is NULL OR status = '' OR status = 'published') AND default_template=0 AND is_template = 0 made by do_action('toplevel_page_formidable'), call_user_func_array, FrmFormsController::route, FrmFormsController::display_forms_list, FrmListHelper->prepare_items, FrmAppHelper::getRecordCount
+[07-Jul-2014 11:23:47] PHP Warning:  Invalid argument supplied for foreach() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php on line 230
+[07-Jul-2014 11:23:47] PHP Stack trace:
+[07-Jul-2014 11:23:47] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[07-Jul-2014 11:23:47] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[07-Jul-2014 11:23:47] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:202
+[07-Jul-2014 11:23:47] PHP   4. do_action() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-header.php:122
+[07-Jul-2014 11:23:47] PHP   5. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:23:47] PHP   6. PikList_Help::register_help_tabs() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:23:47] PHP   7. PikList::process_views() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:17
+[07-Jul-2014 11:23:47] PHP   8. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:23:47] PHP   9. PikList_Help::register_help_tabs_callback() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:23:47] PHP  10. PikList::render() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:43
+[07-Jul-2014 11:23:47] PHP Warning:  Invalid argument supplied for foreach() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php on line 230
+[07-Jul-2014 11:23:47] PHP Stack trace:
+[07-Jul-2014 11:23:47] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[07-Jul-2014 11:23:47] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[07-Jul-2014 11:23:47] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:202
+[07-Jul-2014 11:23:47] PHP   4. do_action() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-header.php:122
+[07-Jul-2014 11:23:47] PHP   5. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:23:47] PHP   6. PikList_Help::register_help_tabs() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:23:47] PHP   7. PikList::process_views() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:17
+[07-Jul-2014 11:23:47] PHP   8. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:23:47] PHP   9. PikList_Help::register_help_tabs_callback() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:23:47] PHP  10. PikList::render() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:50
+[07-Jul-2014 11:24:24] PHP Warning:  Invalid argument supplied for foreach() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php on line 230
+[07-Jul-2014 11:24:24] PHP Stack trace:
+[07-Jul-2014 11:24:24] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[07-Jul-2014 11:24:24] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[07-Jul-2014 11:24:24] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:202
+[07-Jul-2014 11:24:24] PHP   4. do_action() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-header.php:122
+[07-Jul-2014 11:24:24] PHP   5. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:24:24] PHP   6. PikList_Help::register_help_tabs() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:24:24] PHP   7. PikList::process_views() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:17
+[07-Jul-2014 11:24:24] PHP   8. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:24:24] PHP   9. PikList_Help::register_help_tabs_callback() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:24:24] PHP  10. PikList::render() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:43
+[07-Jul-2014 11:24:24] PHP Warning:  Invalid argument supplied for foreach() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php on line 230
+[07-Jul-2014 11:24:24] PHP Stack trace:
+[07-Jul-2014 11:24:24] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[07-Jul-2014 11:24:24] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[07-Jul-2014 11:24:24] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:202
+[07-Jul-2014 11:24:24] PHP   4. do_action() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-header.php:122
+[07-Jul-2014 11:24:24] PHP   5. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:24:24] PHP   6. PikList_Help::register_help_tabs() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:24:24] PHP   7. PikList::process_views() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:17
+[07-Jul-2014 11:24:24] PHP   8. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:24:24] PHP   9. PikList_Help::register_help_tabs_callback() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:24:24] PHP  10. PikList::render() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:50
+[07-Jul-2014 11:24:41] PHP Warning:  Invalid argument supplied for foreach() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php on line 230
+[07-Jul-2014 11:24:41] PHP Stack trace:
+[07-Jul-2014 11:24:41] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[07-Jul-2014 11:24:41] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[07-Jul-2014 11:24:41] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:202
+[07-Jul-2014 11:24:41] PHP   4. do_action() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-header.php:122
+[07-Jul-2014 11:24:41] PHP   5. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:24:41] PHP   6. PikList_Help::register_help_tabs() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:24:41] PHP   7. PikList::process_views() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:17
+[07-Jul-2014 11:24:41] PHP   8. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:24:41] PHP   9. PikList_Help::register_help_tabs_callback() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:24:41] PHP  10. PikList::render() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:43
+[07-Jul-2014 11:24:41] PHP Warning:  Invalid argument supplied for foreach() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php on line 230
+[07-Jul-2014 11:24:41] PHP Stack trace:
+[07-Jul-2014 11:24:41] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[07-Jul-2014 11:24:41] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[07-Jul-2014 11:24:41] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:202
+[07-Jul-2014 11:24:41] PHP   4. do_action() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-header.php:122
+[07-Jul-2014 11:24:41] PHP   5. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:24:41] PHP   6. PikList_Help::register_help_tabs() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:24:41] PHP   7. PikList::process_views() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:17
+[07-Jul-2014 11:24:41] PHP   8. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:24:41] PHP   9. PikList_Help::register_help_tabs_callback() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:24:41] PHP  10. PikList::render() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:50
+[07-Jul-2014 11:25:23] PHP Warning:  Invalid argument supplied for foreach() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php on line 230
+[07-Jul-2014 11:25:23] PHP Stack trace:
+[07-Jul-2014 11:25:23] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[07-Jul-2014 11:25:23] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[07-Jul-2014 11:25:23] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:202
+[07-Jul-2014 11:25:23] PHP   4. do_action() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-header.php:122
+[07-Jul-2014 11:25:23] PHP   5. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:25:23] PHP   6. PikList_Help::register_help_tabs() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:25:23] PHP   7. PikList::process_views() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:17
+[07-Jul-2014 11:25:23] PHP   8. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:25:23] PHP   9. PikList_Help::register_help_tabs_callback() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:25:23] PHP  10. PikList::render() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:43
+[07-Jul-2014 11:25:23] PHP Warning:  Invalid argument supplied for foreach() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php on line 230
+[07-Jul-2014 11:25:23] PHP Stack trace:
+[07-Jul-2014 11:25:23] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[07-Jul-2014 11:25:23] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[07-Jul-2014 11:25:23] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:202
+[07-Jul-2014 11:25:23] PHP   4. do_action() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-header.php:122
+[07-Jul-2014 11:25:23] PHP   5. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:25:23] PHP   6. PikList_Help::register_help_tabs() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/plugin.php:470
+[07-Jul-2014 11:25:23] PHP   7. PikList::process_views() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:17
+[07-Jul-2014 11:25:23] PHP   8. call_user_func_array() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:25:23] PHP   9. PikList_Help::register_help_tabs_callback() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist.php:323
+[07-Jul-2014 11:25:23] PHP  10. PikList::render() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/plugins/piklist/includes/class-piklist-help.php:50
+[07-Jul-2014 15:49:45] PHP Warning:  htmlspecialchars(): Invalid multibyte sequence in argument in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/formatting.php on line 3058
+[07-Jul-2014 15:49:45] PHP Stack trace:
+[07-Jul-2014 15:49:45] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/plugin-editor.php:0
+[07-Jul-2014 15:49:45] PHP   2. esc_textarea() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/plugin-editor.php:166
+[07-Jul-2014 15:49:45] PHP   3. htmlspecialchars() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-includes/formatting.php:3058
+[14-Jul-2014 19:11:15] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:11:15] PHP Stack trace:
+[14-Jul-2014 19:11:15] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-ajax.php:0
+[14-Jul-2014 19:11:15] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin-ajax.php:20
+[14-Jul-2014 19:11:15] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:11:15] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:11:18] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:11:18] PHP Stack trace:
+[14-Jul-2014 19:11:18] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[14-Jul-2014 19:11:18] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[14-Jul-2014 19:11:18] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:11:18] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:11:18] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:11:34] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:11:34] PHP Stack trace:
+[14-Jul-2014 19:11:34] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[14-Jul-2014 19:11:34] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[14-Jul-2014 19:11:34] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:11:34] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:11:34] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:11:59] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:11:59] PHP Stack trace:
+[14-Jul-2014 19:11:59] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[14-Jul-2014 19:11:59] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[14-Jul-2014 19:11:59] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:11:59] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:11:59] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:12:19] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:12:19] PHP Stack trace:
+[14-Jul-2014 19:12:19] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[14-Jul-2014 19:12:19] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[14-Jul-2014 19:12:19] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:12:19] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:12:19] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:12:29] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:12:29] PHP Stack trace:
+[14-Jul-2014 19:12:29] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/themes.php:0
+[14-Jul-2014 19:12:29] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/themes.php:10
+[14-Jul-2014 19:12:29] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:12:29] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:12:29] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:12:55] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:12:55] PHP Stack trace:
+[14-Jul-2014 19:12:55] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/post-new.php:0
+[14-Jul-2014 19:12:55] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/post-new.php:10
+[14-Jul-2014 19:12:55] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:12:55] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:12:55] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:13:05] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:13:05] PHP Stack trace:
+[14-Jul-2014 19:13:05] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:0
+[14-Jul-2014 19:13:05] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/edit.php:10
+[14-Jul-2014 19:13:05] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:13:05] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:13:05] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:13:33] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:13:33] PHP Stack trace:
+[14-Jul-2014 19:13:33] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/themes.php:0
+[14-Jul-2014 19:13:33] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/themes.php:10
+[14-Jul-2014 19:13:33] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:13:33] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:13:33] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:13:50] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:13:50] PHP Stack trace:
+[14-Jul-2014 19:13:50] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/post-new.php:0
+[14-Jul-2014 19:13:50] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/post-new.php:10
+[14-Jul-2014 19:13:50] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:13:50] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:13:50] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:14:01] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:14:01] PHP Stack trace:
+[14-Jul-2014 19:14:01] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/customize.php:0
+[14-Jul-2014 19:14:01] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/customize.php:13
+[14-Jul-2014 19:14:01] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:14:01] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:14:01] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91
+[14-Jul-2014 19:16:34] PHP Parse error:  syntax error, unexpected '<' in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/responsive/functions.php on line 41
+[14-Jul-2014 19:16:34] PHP Stack trace:
+[14-Jul-2014 19:16:34] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/index.php:0
+[14-Jul-2014 19:16:34] PHP   2. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/index.php:10
+[14-Jul-2014 19:16:34] PHP   3. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-admin/admin.php:30
+[14-Jul-2014 19:16:34] PHP   4. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-load.php:29
+[14-Jul-2014 19:16:34] PHP   5. require_once() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-config.php:91

@@ -1,0 +1,38 @@
+/* Frontend styles */
+.rpfec_box {
+ background:white;   
+}
+
+a#rpfc_cat_title {
+ height:30px;   
+}
+    
+.rpfec_box{
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background-color: #f9f9f9;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	margin: 0 0 20px;
+	padding: 20px;
+	color:black;
+	
+	font-size:16px;
+	width:294px !important;
+	margin-left:-68px ;
+	
+	
+width: 294px;
+position: absolute;
+left: 0px;
+top: 0px;
+border: 1px solid rgb(207, 194, 194) !important;
+}
+
+div.widget_recent_entries ul li {
+margin-bottom: 20px;
+}
+
+div.widget_recent_entries div-widget-title {
+margin-bottom: 15px; 
+}

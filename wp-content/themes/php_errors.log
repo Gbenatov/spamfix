@@ -1,0 +1,21 @@
+[05-Jul-2014 03:02:50] PHP Fatal error:  Call to undefined function wp_loaded() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/header.php on line 1
+[05-Jul-2014 03:02:50] PHP Stack trace:
+[05-Jul-2014 03:02:50] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/header.php:0
+[05-Jul-2014 03:05:33] PHP Fatal error:  Call to undefined function wp_loaded() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/header.php on line 1
+[05-Jul-2014 03:05:33] PHP Stack trace:
+[05-Jul-2014 03:05:33] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/header.php:0
+[05-Jul-2014 03:07:58] PHP Fatal error:  Call to undefined function wp_loaded() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/header.php on line 1
+[05-Jul-2014 03:07:58] PHP Stack trace:
+[05-Jul-2014 03:07:58] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/header.php:0
+[05-Jul-2014 03:07:58] PHP Fatal error:  Call to undefined function wp_get_header() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/index.php on line 1
+[05-Jul-2014 03:07:58] PHP Stack trace:
+[05-Jul-2014 03:07:58] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/index.php:0
+[05-Jul-2014 03:08:35] PHP Fatal error:  Call to undefined function wp_get_header() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/index.php on line 1
+[05-Jul-2014 03:08:35] PHP Stack trace:
+[05-Jul-2014 03:08:35] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/index.php:0
+[07-Jul-2014 04:46:42] PHP Fatal error:  Call to undefined function wp_get_header() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/index.php on line 1
+[07-Jul-2014 04:46:42] PHP Stack trace:
+[07-Jul-2014 04:46:42] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/index.php:0
+[07-Jul-2014 04:53:43] PHP Fatal error:  Call to undefined function wp_get_header() in /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/index.php on line 1
+[07-Jul-2014 04:53:43] PHP Stack trace:
+[07-Jul-2014 04:53:43] PHP   1. {main}() /var/lib/stickshift/53b00cd4500446a3e8000418/app-root/data/900943/wp-content/themes/olympia/index.php:0
