@@ -41,3 +41,4 @@ function new_more_link( $more_link, $more_link_text ) {
     return str_replace( $more_link_text, 'הצטרף', $more_link );
 }
 add_filter( 'the_content_more_link', 'new_more_link', 10, 2 );
+

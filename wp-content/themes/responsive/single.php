@@ -91,3 +91,4 @@ get_header(); ?>
 <?php setPostViews(get_the_ID()); ?>
 
 <?php if(function_exists('the_views')) { the_views(); } ?>
+

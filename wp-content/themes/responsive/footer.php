@@ -65,20 +65,25 @@ $responsive_options = responsive_get_options();
 		<?php get_sidebar( 'colophon' ); ?>
 
 		<div class="grid col-300 copyright">
-			<?php esc_attr_e( '&copy;', 'responsive' ); ?> <?php echo date( 'Y' ); ?><a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
-				<?php bloginfo( 'name' ); ?>
+			<?php esc_attr_e( '&copy;', 'responsive' ); ?> <?php echo date( 'Y' );  ?><a href="<?php echo home_url( '/' ) ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+				 כל הזכויות שמורות <?php bloginfo( 'name' ); ?>
+				
 			</a>
 		</div>
 		<!-- end of .copyright -->
 		
 
-		<div class="grid col-300 scroll-top"><a style="border:1px solid gray; width:100px;" href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a></div>
+		<div style="width:308px; margin-right:-6px;" class="grid col-300 scroll-top"><a href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a><a style="border-left:1px solid gray; padding-left:10px;" href="https://test-c9-gbenatov_1.c9.io/"> בית</a><a style="padding-right:10px;  padding-left:10px; border-left:1px solid gray;" href="https://test-c9-gbenatov_1.c9.io/?page_id=116"> שאלות נפוצות</a><a style="padding-right:10px;  padding-left:10px; border-left:1px solid gray;" href="https://test-c9-gbenatov_1.c9.io/?page_id=116">פרטיות</a>
+		<a style="padding-right:10px;  padding-left:10px;" href="https://test-c9-gbenatov_1.c9.io/?page_id=113">הצטרף כעו"ד</a>
+		</div>
+		
 
 		<div class="grid col-300 fit powered">
-			<a href="<?php echo esc_url( 'http://cyberchimps.com/responsive-theme/' ); ?>" title="<?php esc_attr_e( 'Responsive Theme', 'responsive' ); ?>">
-				Responsive Theme</a>
-			<?php esc_attr_e( 'powered by', 'responsive' ); ?> <a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" title="<?php esc_attr_e( 'WordPress', 'responsive' ); ?>">
-				WordPress</a>
+			<a  style="border-left:1px solid gray; padding-left:10px;" href="<?php echo esc_url( 'https://www.facebook.com/spamfix' ); ?>" title="<?php esc_attr_e( 'Responsive Theme', 'responsive' ); ?>">
+				בקרו בפייסבוק</a>
+			<a href="mailto:support@spamfix.co.il?Subject=שלום%20שוב" target="_top">
+כתבו לנו</a>
+</p>
 		</div>
 		<!-- end .powered -->
 

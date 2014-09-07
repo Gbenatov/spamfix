@@ -33,6 +33,8 @@ if( !defined( 'ABSPATH' ) ) {
 <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
 	<head>
 	
+	<link href='http://serve.fontsproject.com/css?family=Alef:400'
+  rel='stylesheet' type='text/css'>
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
 		<meta charset="<?php bloginfo( 'charset' ); ?>"/>
@@ -47,81 +49,93 @@ if( !defined( 'ABSPATH' ) ) {
 	</head>
 
 <body <?php body_class(); ?>>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<?php responsive_header(); // before header hook ?>
+<div id="header">
+
+	<?php responsive_header_top(); // before header content hook ?>
+
+	<?php if( has_nav_menu( 'top-menu', 'responsive' ) ) { ?>
+		<?php wp_nav_menu( array(
+							   'container'      => '',
+							   'fallback_cb'    => false,
+							   'menu_class'     => 'top-menu',
+							   'theme_location' => 'top-menu'
+						   )
+		);
+		?>
+	<?php } ?>
+
+	<?php responsive_in_header(); // header hook ?>
+
+	<?php if( get_header_image() != '' ) : ?>
+
+		<div id="logo">
+			<a href="<?php echo home_url( '/' ); ?>"><img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php bloginfo( 'name' ); ?>"/></a>
+		</div><!-- end of #logo -->
+		
+		<ul id="header-text">
+		<li class="title"> <h1> הבית לגיבוש תובענות ייצוגיות</h1></li>
+		</ul>
+
+	<?php endif; // header image was removed ?>
+
+	<?php if( !get_header_image() ) : ?>
+
+		<div id="logo">
+			<span class="site-name"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
+			<span class="site-description"><?php bloginfo( 'description' ); ?></span>
+		</div><!-- end of #logo -->
+
+	<?php endif; // header image was removed (again) ?>
+
+	<?php get_sidebar( 'top' ); ?>
+	
+	<?php wp_nav_menu( array(
+						   'container'       => 'div',
+						   'container_class' => 'main-nav',
+						   'fallback_cb'     => 'responsive_fallback_menu',
+						   'theme_location'  => 'header-menu'
+					   )
+
+	);
+	
+	?>
+	
+
+	<?php if( has_nav_menu( 'sub-header-menu', 'responsive' ) ) { ?>
+		<?php wp_nav_menu( array(
+							   'container'      => '',
+							   'menu_class'     => 'sub-header-menu',
+							   'theme_location' => 'sub-header-menu'
+						   )
+		);
+		?>
+		
+	<?php } ?>
+
+	<?php responsive_header_bottom(); // after header content hook ?>
+
+</div><!-- end of #header -->
+<?php responsive_header_end(); // after header container hook ?>
+
+<hr />
 
 <?php responsive_container(); // before container hook ?>
 <div id="container" class="hfeed">
 
-<?php responsive_header(); // before header hook ?>
 	<div class="skip-container cf">
 		<a class="skip-link screen-reader-text focusable" href="#main"><?php _e( '&darr; Skip to Main Content', 'responsive' ); ?></a>
 	</div><!-- .skip-container -->
-	<div id="header">
 
-		<?php responsive_header_top(); // before header content hook ?>
-
-		<?php if( has_nav_menu( 'top-menu', 'responsive' ) ) { ?>
-			<?php wp_nav_menu( array(
-								   'container'      => '',
-								   'fallback_cb'    => false,
-								   'menu_class'     => 'top-menu',
-								   'theme_location' => 'top-menu'
-							   )
-			);
-			?>
-		<?php } ?>
-
-		<?php responsive_in_header(); // header hook ?>
-
-		<?php if( get_header_image() != '' ) : ?>
-
-			<div id="logo">
-				<a href="<?php echo home_url( '/' ); ?>"><img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php bloginfo( 'name' ); ?>"/></a>
-			</div><!-- end of #logo -->
-			
-			<ul id="header-text">
-			<li class="title"> <h1> ייצוגית להמונים</h1></li>
-			</ul>
-
-		<?php endif; // header image was removed ?>
-
-		<?php if( !get_header_image() ) : ?>
-
-			<div id="logo">
-				<span class="site-name"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
-				<span class="site-description"><?php bloginfo( 'description' ); ?></span>
-			</div><!-- end of #logo -->
-
-		<?php endif; // header image was removed (again) ?>
-
-		<?php get_sidebar( 'top' ); ?>
-		
-		<?php wp_nav_menu( array(
-							   'container'       => 'div',
-							   'container_class' => 'main-nav',
-							   'fallback_cb'     => 'responsive_fallback_menu',
-							   'theme_location'  => 'header-menu'
-						   )
-
-		);
-		
-		?>
-		
-
-		<?php if( has_nav_menu( 'sub-header-menu', 'responsive' ) ) { ?>
-			<?php wp_nav_menu( array(
-								   'container'      => '',
-								   'menu_class'     => 'sub-header-menu',
-								   'theme_location' => 'sub-header-menu'
-							   )
-			);
-			?>
-			
-		<?php } ?>
-
-		<?php responsive_header_bottom(); // after header content hook ?>
-
-	</div><!-- end of #header -->
-<?php responsive_header_end(); // after header container hook ?>
 
 <?php responsive_wrapper(); // before wrapper container hook ?>
 	<div id="wrapper" class="clearfix">

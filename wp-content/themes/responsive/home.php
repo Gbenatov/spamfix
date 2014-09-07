@@ -24,7 +24,7 @@ get_header();
 global $more;
 $more = 0;
 ?>
-	<div id="featured" class="main-image">
+	<div id="featured" class="main-image clearfix">
             
 		<div id="featured-content" class="grid col-460">
 
@@ -85,7 +85,7 @@ $more = 0;
 
 		<div id="featured-image" class="grid col-460 fit">
 
-			<?php $featured_content = ( !empty( $responsive_options['featured_content'] ) ) ? $responsive_options['featured_content'] : '<img class="aligncenter" src="' . get_template_directory_uri() . '/core/images/groppy6.png" width="440" height="300" alt="" />'; ?>
+			<?php $featured_content = ( !empty( $responsive_options['featured_content'] ) ) ? $responsive_options['featured_content'] : '<img class="aligncenter" src="' . get_template_directory_uri() . '/core/images/groppy6.png" width="350" height="300" alt="" />'; ?>
 
 			<?php echo do_shortcode( wpautop( $featured_content ) ); ?>
 

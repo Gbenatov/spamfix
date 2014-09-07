@@ -31,24 +31,23 @@ if( !defined( 'ABSPATH' ) ) {
         <?php if( !dynamic_sidebar( 'home-widget-1' ) ) : ?>
         <div class="widget-wrapper" style="height:360px !important">
 
-            <div class="widget-title-home"><h3 ><a style="color:#3498DB;" href="/?page_id=2;"><?php _e( 'העלו עוולות למערכת', 'responsive' ); ?></a></h3></div>
+            <div class="widget-title-home"><h3 style="margin-bottom:19px;" ><a style="color:black;" href="/?page_id=2;"><?php _e( 'שלחו הודעות למערכת', 'responsive' ); ?></a></h3></div>
 
 
             <button class="btn btn-default btn-lg" style="width:261px;">
             <h4 style="float:right;"><a href="?page_id=2;">
                 <div style="color:orange; font-size:50px;">1,500</div>
-                </br>עוולות עד כה
-            </a></h4>
+                </br>הודעות התקבלו            </a></h4>
 
             <h4 class="fa fa-comment-o fa-5x "
                 style="margin-top:25px; line-height:0.5; padding-right:29px !important; padding-left:16px !important;"></h4></button>
 
 
-            <div class="textwidget"><?php _e( 'העלו עוולות למערכת אשר ראויות מוגשות כתביעה ייצוגית. למשל פגיעה מחברת סלולר, הטעיית לקוחות מצד הבנקים ועוד', 'responsive'); ?>
+            <div class="textwidget"><?php _e( 'בשלבים אלו המערכת מתמקדת בלקבל עותקים מהודעות ספאם, סידור חכם של ההודעות ומינוי נציגים לקבוצות','ponsive'); ?>
 
-                <h6 class="button5" style="margin-bottom:33px; padding:10px; margin-top:30px !important"><a style="color:white;"
+                <h6 class="button51" style="margin-bottom:33px; padding:10px; margin-top:57px !important"><a style="color:black;"
                                                                                  href="https://wordy-c9-gbenatov_1.c9.io/?page_id=2">
-                    צור עוולה חדשה</a></h6>
+                    איך פונים אלינו?</a></h6>
 
             </div>
         </div>
@@ -68,19 +67,19 @@ if( !defined( 'ABSPATH' ) ) {
     <?php if( !dynamic_sidebar( 'home-widget-2' ) ) : ?>
     <div class="widget-wrapper" style="height:360px !important;">
 
-        <div class="widget-title-home"><h3><?php _e( 'עו"ד סורקים עוולות', 'responsive' ); ?></h3></div>
+        <div class="widget-title-home"><h3><?php _e( 'התגבשו לקבוצה ונציג', 'responsive' ); ?></h3></div>
         <button class="btn btn-default btn-lg" style="width:261px">
         <h4 style="float:right;">
             <div style="color:orange; font-size:50px;">30</div>
-            </br>פניות נסרקות כרגע
+            </br>קבוצות התגבשו
         </h4>
 
         <h4 class="fa fa-cog fa-5x" style="margin-top:25px; line-height:0.5; "></h4></button>
         <div
-                class="textwidget"><?php _e( 'עו"ד סורקים את הדיווחים שלכם ובודקים אלו תופעות הם בגדר "מכת מדינה" ועם סיכוי ההצלחה הגבוהים ביותר.', 'responsive' ); ?></div>
+                class="textwidget"><?php _e( 'לכשמצטברות כמות פניות מכובדת מנושא אחד הינכם מתגבשים כקבוצה. כך תוכלו לנקוט פעולות יחד כקבוצה ולממש את היעדים שלכם', 'responsive' ); ?></div>
 
         <h6 class="button51" style="margin-bottom:33px; font-size:18px; padding:10px; margin-top:30px !important"><a  style="color:black;"
-                                                                         href="https://wordy-c9-gbenatov_1.c9.io/?page_id=232"> למאגר
+                                                                         href="https://test-c9-gbenatov_1.c9.io/?page_id=27"> למאגר
             עורכי הדין></a></h6>
     </div>
     <?php endif; //end of home-widget-2 ?>
@@ -95,7 +94,7 @@ if( !defined( 'ABSPATH' ) ) {
     <?php if( !dynamic_sidebar( 'home-widget-3' ) ) : ?>
     <div class="widget-wrapper" style="height:360px !important;">
 
-        <div class="widget-title-home"><h3><?php _e( 'מוגשות תביעות ייצוגיות', 'responsive' ); ?></h3></div>
+        <div class="widget-title-home"><h3><?php _e( 'פנייה מסודרת לעו"ד', 'responsive' ); ?></h3></div>
 
         <button class="btn btn-default btn-lg" style=
         "width:261px;">
@@ -107,7 +106,7 @@ if( !defined( 'ABSPATH' ) ) {
         <h4 class="fa fa-suitcase fa-5x "
             style="margin-top:25px; line-height:0.5; padding-right:29px !important; padding-left:16px !important;"></h4></button>
         <div
-                class="textwidget"><?php _e( 'אתם נשארים מעודכנים לאורך כל הדרך ולבסוף אתם מקבלים את הפיצוי שבית המשפט מחליט עליו וכך "שיטת המצליח " נחלשת', 'responsive' ); ?></div>
+                class="textwidget"><?php _e( 'נוצר קשר בין נציג הקבוצה לעו"ד וכשמגיעים להבנות הנציג מעלה אותם להצבעת הקבוצה ואתם מחליטים מה יעלה בגורל המקרה שלכם.', 'responsive' ); ?></div>
         <h6 class="button51" style="margin-bottom:33px; font-size:18px; padding:10px; margin-top:30px !important"><a style="color:black;"
                                                                          href="https://wordy-c9-gbenatov_1.c9.io/?cat=5">
             לתובענות הייצוגיות></a></h6>
@@ -120,431 +119,159 @@ if( !defined( 'ABSPATH' ) ) {
 <!-- end of .col-300 fit -->
 
 
+
+
+
 <div class="clearfix">
-    <h2 class="title" style="font-size:3.25em;"> מקרים פופולרים</h2>
+    <h2 class="title" style="font-size:3.25em;"> סיפורי הצלחה</h2>
 </div>
-
-<div class="my-con" style="width: 100%" > <!--class="home-widgets"-->
-    <div id="home_widget_4" class="grid col-300">
-
-        <?php responsive_widgets(); // above widgets hook ?>
-
-
-        <?php if( !dynamic_sidebar( 'home-widget-1' ) ) : ?>
-        <div class="widget-wrapper"
-
-             style="
-    padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 1px;
-    padding-bottom:0px;
-    border:2px solid #3498DB;
-    background:white !important;
-    "
-
-                >
-
-            <div class="widget-title-home"><div style="float:center; margin-right:5px; width: 100px; float: center; font-size:14px; "><a class="lawyer"  href="https://wordy-c9-gbenatov_1.c9.io/?page_id=120">עו"ד גולדברג</a></div><h3 class="fa fa-tag" style="
-					
-    padding-bottom: 0px;
-    border-left-width: 5px;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: -17px;
-    
-    margin-bottom: 17px;
-    margin-right:150px;
-    font-size:16px !important;
-    background:transparent;
-    float:left;
-    border-bottom:2px solid orange;
-    "
-
-                    ><a href="?cat=5">צרכנות</a></h3>
-                    <hr>
-
-
-                <ul>
-                    <?php $the_query = new WP_Query( 'showposts=1' ); ?>
-                    <?php while ($the_query -> have_posts()) : $the_query -> the_post(); the_post_thumbnail(30,30); ?>
-                    <li style="list-style-type:none;"><h6 style="margin-top:5px !important; "><a style="color:#3498DB;  font-style:italic;"
-                        href="<?php the_permalink() ?>"><?php the_title();  ?></a></h6></li>
-                        
-                    <li style="list-style-type:none;"><h5
-                            style="margin-right:10 px;"><?php the_content() ?></h5></li>
-                            
-                    <i class="fa fa-book" style="color:gray; margin-top:44px; margin-right:0px; "><h4 style="font-size:16px; margin-top:-17px; color:gray;  font-family:'alef' !important;"><a href="?p=133  ">&nbsp&nbsp&nbsp קרא עוד></a></h4></i>
-                   
-                   
-                            
-                    <?php endwhile;?>
-
-                </ul>
-
-            </div>
-
-
-        </div>
+<section class="testimonial">
+  <div class="inner">
+      <div class="cederholm" id="quote-wrapper">
+      <div class="quote">
+        <blockquote id="quote-quote" style="overflow:hidden;">בית המשפט פסק לטובת הקבוצה שלי פיצוי של 30,000 ש"ח <a href="http://www.apollowebstudio.com">, גיליתי את SpamFix</a> ,    נעזרתי בגיבוש הקבוצה ולבצע את כל הפעולות הטכניות סביב התביעה.</blockquote><cite id="quote-attrib">יוסי קונפינו, רעננה</cite>
+      </div>
+      <div class="portrait" style="
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-bottom:62px;
+;"></div>
     </div>
+  </div>
+</section>
+
+<style type="text/css">
+section.testimonial {
+background: #F6F4EF;
+text-align:right;
+}
+
+section .inner {
+max-width: 940px;
+margin: 0 auto;
+text-align: center;
+}
+section.testimonial .inner {
+padding-top: 50px;
+text-align: left;
+}
+
+
+section.testimonial #quote-wrapper {
+position: relative;
+min-height: 358px;
+padding-top: 40px;
+}
+
+section.testimonial blockquote {
+	font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #666;
+font-size: 28px;
+line-height: 1.3em;
+padding-top: 1em;
+position: relative;
+z-index: 1;
+margin-bottom: 0.75em;
+text-align:right;
+font-style: italic;
+font-family:'Alef';    
+}
+q, blockquote {
+quotes: none;
+}
+section.testimonial cite {
+font-size: 18px;
+color: #595756;
+font-weight: bold;
+margin: 2em 0;
+  margin-left: 38px;
+
+}
+#quote-quote a {
+color: #020202;
+text-decoration: none;
+overflow:hidden;
+}
+#quote-quote a:hover {
+color: #020202;
+text-decoration: underline;
+}
+
+section.testimonial #quote-wrapper.lisagor .portrait {
+background-repeat: no-repeat;
+background-image: url("http://www.getballpark.com/images/home/testimonials/lisagor.jpg");
+background-size: 313px 329px;
+background-position: center center;
+width: 313px;
+height: 329px;
+}
+
+section.testimonial #quote-wrapper.cederholm .portrait {
+background-repeat: no-repeat;
+background-image: url("http://www.getballpark.com/images/home/testimonials/cederholm.jpg");
+background-size: 275px 305px;
+background-position: center center;
+width: 275px;
+height: 305px;
+}
+
+
+section.testimonial blockquote::before {
+content: "“";
+color: #E0DDD7;
+font-family: georgia, serif;
+font-size: 6em;
+position: absolute;
+left: -0.25em;
+top: 0.35em;
+z-index: -10;
+}
+
+
+@media screen and (min-width: 750px){
+  
+section.testimonial #quote-wrapper {
+padding-left: 360px;
+}  
+  
+section.testimonial #quote-wrapper .portrait {
+position: absolute;
+left: 10px;
+bottom: 0;
+}
+  
+}
 
 
-    <!-- end of .widget-wrapper -->
-    <?php endif; //end of home-widget-1 ?>
 
+@media screen and (max-width: 750px){
+	
 
-    <?php responsive_widgets_end(); // responsive after widgets hook ?>
+section.testimonial .inner {
+padding-left: 0;
+}
 
-<!-- end of .col-300 -->
+section.testimonial .quote {
+max-width: 75%;
+margin: 0 auto;
+margin-bottom: 20px;
+}
 
 
-<div id="home_widget_5" class="grid col-300">
+section.testimonial .portrait {
+display: block;
+margin: 0 auto;
+max-width: 80%;
+background-size: 100% auto !important;
+background-position: center bottom !important;
+}
+  
+}
 
-    <?php responsive_widgets(); // above widgets hook ?>
 
+</style>
 
-    <?php if( !dynamic_sidebar( 'home-widget-1' ) ) : ?>
-
-
-
-
-    <div class="widget-wrapper"
-
-         style="
-    padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 1px;
-    padding-bottom:0px;
-    border:2px solid #3498DB;
-    background:white !important;
-    "
-
-            >
-
-        <div class="widget-title-home"><div style="float:center; margin-right:5px; width: 100px; float: center; font-size:14px; "><a class="lawyer"  href="https://wordy-c9-gbenatov_1.c9.io/?page_id=120">עו"ד גולדברג</a></div><h3 class="fa fa-tag" style="
-					
-    padding-bottom: 0px;
-    border-left-width: 5px;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: -17px;
-    
-    margin-bottom: 17px;
-    margin-right:150px;
-    font-size:16px !important;
-    background:transparent;
-    float:left;
-    border-bottom:2px solid orange;
-    "
-
-                ><a href="?cat=5">צרכנות</a></h3>
-                <hr>
-
-
-            <ul>
-                <?php $the_query = new WP_Query( 'showposts=1' ); ?>
-                <?php while ($the_query -> have_posts()) : $the_query -> the_post(); the_post_thumbnail(30,30); ?>
-                <li style="list-style-type:none;"><h6 style="margin-top:5px !important; "  ><a style="color:#3498DB;"
-                    href="<?php the_permalink() ?>"><?php the_title();  ?></a></h6></li>
-                <li style="list-style-type:none;"><h5
-                        ><?php the_content('<span class="moretext" style="color:white; float:left;">קרא עוד></span>'); ?></h5></li>
-                
-                
-                    <i class="fa fa-book" style="color:gray; margin-top:44px; margin-right:0px; "><h4 style="font-size:16px; margin-top:-17px; color:gray;  font-family:'alef' !important;"><a href="?p=133">&nbsp&nbsp&nbsp קרא עוד></a></h4></i>     
-                    
-                <?php endwhile;?>
-
-            </ul>
-
-        </div>
-
-
-    </div>
-</div>
-
-
-<!-- end of .widget-wrapper -->
-<?php endif; //end of home-widget-1 ?>
-
-
-
-
-<div id="home_widget_6" class="grid col-300 fit">
-
-    <?php responsive_widgets(); // above widgets hook ?>
-
-
-    <?php if( !dynamic_sidebar( 'home-widget-1' ) ) : ?>
-    <div class="widget-wrapper"
-
-         style="
-    padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 1px;
-    padding-bottom:0px;
-    border:2px solid #3498DB;
-    background:white !important;
-    "
-
-            >
-
-        <div class="widget-title-home"><div style="float:center; margin-right:5px; width: 100px; float: center; font-size:14px; "><a class="lawyer"  href="https://wordy-c9-gbenatov_1.c9.io/?page_id=120">עו"ד גולדברג</a></div><h3 class="fa fa-tag" style="
-					
-    padding-bottom: 0px;
-    border-left-width: 5px;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: -17px;
-    
-    margin-bottom: 0px;
-    margin-right:150px;
-    font-size:16px !important;
-    background:transparent;
-    float:left;
-    border-bottom:2px solid orange;
-    "
-
-                ><a href="?cat=5">צרכנות</a></h3>
-                <hr>
-
-
-            <ul>
-                <?php $the_query = new WP_Query( 'showposts=1' ); ?>
-                <?php while ($the_query -> have_posts()) : $the_query -> the_post(); the_post_thumbnail(30,30); ?>
-                <li style="list-style-type:none;"><h6 style="margin-top:5px !important; "  ><a style="color:#3498DB;"
-                        href="<?php the_permalink() ?>"><?php the_title();  ?></a></h6></li>
-                <li style="list-style-type:none;"><h5
-                        ><?php the_content('<span class="moretext" style="color:white !important; float:left; ">קרא עוד></span>'); ?></h5></li>
-                      
-                
-                    
-                     <i class="fa fa-book" style="color:gray; margin-top:44px; margin-right:0px; "><h4 style="font-size:16px; margin-top:-17px; color:gray;  font-family:'alef' !important;"><a href="?p=133">&nbsp&nbsp&nbsp קרא עוד></a></h4></i>     
-                    
-                <?php endwhile;?>
-
-            </ul>
-
-        </div>
-
-
-    </div>
-</div>
-
-
-<!-- end of .widget-wrapper -->
-<?php endif; //end of home-widget-1 ?>
-
-
-
-<div id="home_widget_8" class="grid col-300">
-
-        <?php responsive_widgets(); // above widgets hook ?>
-
-
-        <?php if( !dynamic_sidebar( 'home-widget-1' ) ) : ?>
-        <div class="widget-wrapper"
-
-             style="
-    padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 1px;
-    padding-bottom:0px;
-    border:2px solid #3498DB;
-    background:white !important;
-    "
-
-                >
-
-            <div class="widget-title-home"><div style="float:center; margin-right:5px; width: 100px; float: center; font-size:14px; "><a class="lawyer"  href="https://wordy-c9-gbenatov_1.c9.io/?page_id=120">עו"ד גולדברג</a></div><h3 class="fa fa-tag" style="
-					
-    padding-bottom: 0px;
-    border-left-width: 5px;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: -18px;
-    color:black !important;
-    margin-bottom: 0px;
-    margin-right:150px;
-    font-size:16px !important;
-    background:transparent;
-    float:left;
-    border-bottom:2px solid orange;
-    "
-
-                    ><a href="?cat=5">צרכנות</a></h3>
-                    <hr>
-
-
-                <ul>
-                    <?php $the_query = new WP_Query( 'showposts=1' ); ?>
-                    <?php while ($the_query -> have_posts()) : $the_query -> the_post(); the_post_thumbnail(30,30); ?>
-                    <li style="list-style-type:none;"><h6 style="margin-top:5px !important; color:#3498DB;"  ><a style="color:#3498DB;"
-                            href="<?php the_permalink() ?>"><?php the_title();  ?></a></h6></li>
-                    <li style="list-style-type:none;"><h5
-                            ><?php the_content('<span class="moretext" style="color:white !important; float:left;">קרא עוד></span>'); ?></h5></li>
-                           
-                  
-                        <i class="fa fa-book" style="color:gray; margin-top:44px; margin-right:0px; "><h4 style="font-size:16px; margin-top:-17px; color:gray;  font-family:'alef' !important;"><a href="?p=133">&nbsp&nbsp&nbsp קרא עוד></a></h4></i>
-                    <?php endwhile;?>
-
-                </ul>
-
-            </div>
-
-
-        </div>
-    </div>
-
-
-
-<!-- end of .widget-wrapper -->
-<?php endif; //end of home-widget-1 ?>
-
-
-
-    <div id="home_widget_8" class="grid col-300">
-
-        <?php responsive_widgets(); // above widgets hook ?>
-
-
-        <?php if( !dynamic_sidebar( 'home-widget-1' ) ) : ?>
-        <div class="widget-wrapper"
-
-             style="
-    padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 1px;
-    padding-bottom:0px;
-    border:2px solid #3498DB;
-    background:white !important;
-    "
-
-                >
-
-            <div class="widget-title-home"><div style="float:center; margin-right:5px; width: 100px; float: center; font-size:14px; "><a class="lawyer"  href="https://wordy-c9-gbenatov_1.c9.io/?page_id=120">עו"ד גולדברג</a></div><h3 class="fa fa-tag" style="
-					
-    padding-bottom: 0px;
-    border-left-width: 5px;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: -18px;
-    
-    margin-bottom: 0px;
-    margin-right:150px;
-    font-size:16px !important;
-    background:transparent;
-    float:left;
-    border-bottom:2px solid orange;
-    "
-
-                    ><a href="?cat=5">צרכנות</a></h3>
-                    <hr>
-
-
-                <ul>
-                    <?php $the_query = new WP_Query( 'showposts=1' ); ?>
-                    <?php while ($the_query -> have_posts()) : $the_query -> the_post(); the_post_thumbnail(30,30); ?>
-                    <li style="list-style-type:none;"><h6 style="margin-top:5px !important; color:orange;"  ><a style="color:#3498DB;"
-                            href="<?php the_permalink() ?>"><?php the_title();  ?></a></h6></li>
-                    <li style="list-style-type:none;"><h5
-                            ><?php the_content('<span class="moretext" style="color:white; float:left;">קרא עוד></span>'); ?></h5></li>
-                     
-                         <i class="fa fa-book" style="color:gray; margin-top:44px; margin-right:0px; "><h4 style="font-size:16px; margin-top:-17px; color:gray;  font-family:'alef' !important;"><a href="?p=133">&nbsp&nbsp&nbsp קרא עוד></a></h4></i>
-                    <?php endwhile;?>
-
-                </ul>
-
-            </div>
-
-
-        </div>
-    </div>
-
-
-    <!-- end of .widget-wrapper -->
-    <?php endif; //end of home-widget-1 ?>
-
-
-
-        <div id="home_widget_9" class="grid col-300 fit">
-
-            <?php responsive_widgets(); // above widgets hook ?>
-
-
-            <?php if( !dynamic_sidebar( 'home-widget-1' ) ) : ?>
-            <div class="widget-wrapper"
-
-                 style="
-    padding-top: 3px;
-    padding-left: 3px;
-    padding-right: 1px;
-    padding-bottom:0px;
-    border:2px solid #3498DB;
-    background:white !important;
-    "
-
-                    >
-
-                <div class="widget-title-home"><div style="float:center; margin-right:5px; width: 100px; float: center; font-size:14px; "><a class="lawyer"  href="https://wordy-c9-gbenatov_1.c9.io/?page_id=120">עו"ד גולדברג</a></div><h3 class="fa fa-tag" style="
-					
-    padding-bottom: 0px;
-    border-left-width: 5px;
-    margin-left: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-top: -18px;
-    
-    margin-bottom: 0px;
-    margin-right:150px;
-    font-size:16px !important;
-    background:transparent;
-    float:left;
-    border-bottom:2px solid orange;
-    "
-
-                        ><a href="?cat=5">צרכנות</a></h3>
-<hr>
-
-                    <ul>
-                        <?php $the_query = new WP_Query( 'showposts=1' ); ?>
-                        <?php while ($the_query -> have_posts()) : $the_query -> the_post(); the_post_thumbnail(30,30);
-                        ?>
-                        <li style="list-style-type:none;"><h6 style="margin-top:5px !important;"  ><a style="color:#3498DB;"
-                                href="<?php the_permalink() ?>"><?php the_title();  ?></a></h6></li>
-                        <li style="list-style-type:none;"><h5
-                                ><?php the_content('<span class="moretext" style=" float:left; ">קרא עוד></span>'); ?></h5></li>
-                       
-                            
-                           <i class="fa fa-book" style="color:gray; margin-top:44px; margin-right:0px; "><h4 style="font-size:16px; margin-top:-17px; color:gray;  font-family:'alef' !important;"><a href="?p=133">&nbsp&nbsp&nbsp קרא עוד></a></h4></i>
-                            
-                            
-                            
-                        <?php endwhile;?>
-
-                    </ul>
-
-                </div>
-
-
-            </div>
-        </div>
-
-
-        <!-- end of .widget-wrapper -->
-        <?php endif; //end of home-widget-1 ?>
-
-
-    </div>
-    <!-- end of #widgets -->
-    <h1><strong>קטגוריות</strong></h1>
-<ul class="bycategories">
-<?php wp_list_categories('title_li='); ?>
-</ul>
-<div class="clear"></div>
+  
 
 </div>
 <?php responsive_widgets_after(); // after widgets container hook ?>
